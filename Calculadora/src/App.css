@@ -1,0 +1,4 @@
+.tablero{
+  display: flex;
+  grid-template-columns: repeat(5,1fr);
+}
