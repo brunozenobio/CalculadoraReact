@@ -49,6 +49,8 @@ function App() {
     return (
         <main class="tablero">
             <Screen input={input} result={result}></Screen>
+            <Square className="tablero">Ce</Square>
+            <Square className="tablero">C</Square>
             <Square className="tablero">1</Square>
             <Square className="tablero">2</Square>
             <Square className="tablero">3</Square>
@@ -60,15 +62,9 @@ function App() {
             <Square className="tablero">9</Square>
             <Square className="tablero">+</Square>
             <Square className="tablero">-</Square>
-            <Square className="tablero">x</Square>
-            <Square className="tablero">/</Square>
-            <Square className="tablero">=</Square>
             <Square className="tablero">.</Square>
-            <Square className="tablero">c</Square>
-            <Square className="tablero">Ce</Square>
-            <Square className="tablero"></Square>
-            <Square className="tablero"></Square>
-            <Square className="tablero"></Square>
+            <Square className="tablero">=</Square>
+
 
         </main>
     )
